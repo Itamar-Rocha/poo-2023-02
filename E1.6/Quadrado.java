@@ -1,8 +1,8 @@
 public class Quadrado extends Figura implements Desenho {
-	private double lado;
+	protected double lado;
 
 	public Quadrado(double lado) {
-		this.lado = lada;
+		this.lado = lado;
 	}
 
 	public double calcularArea() {

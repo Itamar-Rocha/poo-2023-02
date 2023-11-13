@@ -9,6 +9,7 @@ public class Circulo extends Figura implements Desenho {
 
 	public double calcularArea() {
 		return PI * raio * raio;
+	}
 
 	public double calcularPerimetro() {
 		return 2 * PI * raio;

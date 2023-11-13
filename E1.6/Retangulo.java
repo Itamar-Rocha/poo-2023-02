@@ -1,7 +1,7 @@
 public class Retangulo extends Quadrado implements Desenho {
 	private double altura;
 
-	public Retangulo(lado, altura) {
+	public Retangulo(double lado, double altura) {
 		super(lado);
 		this.altura = altura;
 	}
